@@ -3,4 +3,29 @@
     background-color: red;
     width: 100%;
     flex: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.locationHeaderContainer {
+    display: flex;
+    align-items: center;
+}
+
+.premiumButtonStyle {
+    display: flex;
+    outline-style: none;
+    border-style: none;
+    height: 70%;
+    color: red;
+    background-color: white;
+}
+
+.tripleElementContainer {
+    display: flex;
+    background-color: green;
+    width: 10rem;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }

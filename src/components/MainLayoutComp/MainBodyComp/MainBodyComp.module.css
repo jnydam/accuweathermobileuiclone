@@ -1,3 +1,4 @@
 .mainBodyCompContainer {
     display: flex;
+    flex: 28;
 }

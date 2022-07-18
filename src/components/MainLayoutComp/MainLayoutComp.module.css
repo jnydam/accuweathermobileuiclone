@@ -1,6 +1,7 @@
 .mainLayoutCompContainer {
     display: flex;
     height: 100vh;
+    flex-direction: column;
     width: 100%;
     background-color: #0281f2;
 }
