@@ -9,7 +9,7 @@ const UpperNavBar = (props) => {
 
     return (<div className={styles.upperNavBarContainer}>
         <div style={{justifyContent: 'flex-start'}} className={styles.tripleElementContainer}>
-            <img style={{height: '3rem'}} src={sideBarGraphic}>
+            <img style={{height: '2.5rem', marginLeft: '0.8rem'}} src={sideBarGraphic}>
             </img>
         </div>
         <div className={styles.tripleElementContainer}>
