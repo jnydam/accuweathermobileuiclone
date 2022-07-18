@@ -1,3 +1,7 @@
 .riseSetHorizRowCompContainer {
     display: flex;
+    height: 3.5rem;
+    width: 100%;
+    background-color: aqua;
+    justify-content: space-between;
 }

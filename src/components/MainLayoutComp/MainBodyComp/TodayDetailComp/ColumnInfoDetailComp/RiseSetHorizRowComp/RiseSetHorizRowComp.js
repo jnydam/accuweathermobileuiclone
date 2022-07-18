@@ -5,7 +5,12 @@ import styles from './RiseSetHorizRowComp.module.css';
 const RiseSetHorizRowComp = (props) => {
 
     return (<div className={styles.riseSetHorizRowCompContainer}>
-        <span>This is the rise set horiz component</span>
+        <div className={styles.riseLabelTextStyle}>
+            <span>Rise</span>
+        </div>
+        <div className={styles.timeValueContainerStyle}>
+            <span>{props.riseTime ? props.riseTime : props.setTime}</span>
+        </div>
     </div>)
 }
 

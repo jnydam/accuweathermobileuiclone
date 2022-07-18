@@ -2,4 +2,12 @@
     display: flex;
     flex: 28;
     flex-direction: column;
+    max-height: 100%;
+    overflow: scroll;
+}
+
+.scrollableBodyContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }

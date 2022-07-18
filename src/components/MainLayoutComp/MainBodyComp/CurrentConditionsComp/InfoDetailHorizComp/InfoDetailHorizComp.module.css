@@ -1,0 +1,20 @@
+.infoDetailHorizCompContainer {
+    display: flex;
+    height: 2.5rem;
+    width: 100%;
+    background-color: violet;
+    justify-content: space-between;
+}
+
+.labelValueContainer {
+    display: flex;
+    width: 7rem;
+    background-color: grey;
+}
+
+
+.infoValueContainer {
+    display: flex;
+    width: 7rem;
+    background-color: bisque;
+}

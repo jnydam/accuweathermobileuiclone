@@ -1,6 +1,6 @@
 .upperWeatherKeyCompContainer {
     display: flex;
-    height: 2.5rem;
+    min-height: 2.5rem;
     background-color: violet;
     width: 100%;
     align-items: center;
