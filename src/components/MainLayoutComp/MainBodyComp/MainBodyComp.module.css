@@ -1,4 +1,5 @@
 .mainBodyCompContainer {
     display: flex;
     flex: 28;
+    flex-direction: column;
 }

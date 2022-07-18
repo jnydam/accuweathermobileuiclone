@@ -1,0 +1,25 @@
+.todayDetailCompContainer {
+    display: flex;
+    height: 15rem;
+    background-color: red;
+    width: 100%;
+    flex-direction: column;
+}
+
+.todayDetailHeaderContainer {
+    display: flex;
+    min-height: 3rem;
+    background-color: green;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.outerColumnBlockContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: purple;
+
+}

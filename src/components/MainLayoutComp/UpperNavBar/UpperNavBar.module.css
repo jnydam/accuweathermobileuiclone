@@ -10,6 +10,9 @@
 .locationHeaderContainer {
     display: flex;
     align-items: center;
+    background-color: grey;
+    width: 100%;
+    justify-content: center;
 }
 
 .premiumButtonStyle {
@@ -20,8 +23,8 @@
     color: red;
     font-weight: bold;
     border-radius: 0.7rem;
-    font-size: 0.75rem;
-    width: 7.5rem;
+    font-size: 0.6rem;
+    width: 6rem;
     background-color: white;
     align-items: center;
     justify-content: center;

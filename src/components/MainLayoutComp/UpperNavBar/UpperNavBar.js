@@ -14,7 +14,9 @@ const UpperNavBar = (props) => {
         </div>
         <div className={styles.tripleElementContainer}>
             <div className={styles.locationHeaderContainer}>
-                <span style={{color: 'white', fontWeight: 'bold'}}>Manchester, NH</span>
+                <span style={{color: 'white', 
+                marginRight: '0.4rem',
+                fontSize: '0.9rem', fontWeight: 'bold'}}>Manchester, NH</span>
                 <img 
                     style={{height: '1rem'}}
                     src={downArrowGraphic}></img>

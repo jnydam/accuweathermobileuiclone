@@ -1,0 +1,9 @@
+.iconDegreeContainer {
+    display: flex;
+}
+
+.biggerMoonWithCloudStyle {
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+}
