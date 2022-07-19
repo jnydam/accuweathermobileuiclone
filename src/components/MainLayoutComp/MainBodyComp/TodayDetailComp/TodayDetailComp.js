@@ -6,6 +6,10 @@ import styles from './TodayDetailComp.module.css';
 import sunImageGraphic from '../../../../assets/emptysun.png';
 import moonImageGraphic from '../../../../assets/emptycrescent.png';
 
+import biggerMoonWithCloudGraphic from '../../../../assets/biggermoonwithcloud.png';
+import sunAndCloudGraphic from '../../../../assets/sunandcloud.png';
+import moonWithCloudRightGraphic from '../../../../assets/moonwithcloud.png';
+
 const TodayDetailComp = (props) => {
 
     const todayDetailDummyInformation = [

@@ -3,15 +3,21 @@ import InnerForecastContentComp from './InnerForecastContentComp/InnerForecastCo
 
 import styles from './UpperTwoDayForecastComp.module.css';
 
+import biggerMoonWithCloudGraphic from '../../../../assets/biggermoonwithcloud.png';
+import sunAndCloudGraphic from '../../../../assets/sunandcloud.png';
+import moonWithCloudRightGraphic from '../../../../assets/moonwithcloud.png';
+
 const UpperTwoDayForecastComp = (props) => {
 
     const dummyWeatherData = [
         {
+            icon: biggerMoonWithCloudGraphic,
             upperDayText: 'TONIGHT',
             middleTempText: '60°',
             lowerRealFeelText: '62°'
         },
         {
+            icon: sunAndCloudGraphic,
             upperDayText: 'THU',
             middleTempText: '79°',
             lowerRealFeelText: '87°'
@@ -31,6 +37,7 @@ const UpperTwoDayForecastComp = (props) => {
                 <div className={styles.forecastColumnDivider}>
                     <InnerForecastContentComp
                         key={index}
+                        icon={dataObject.icon}
                         upperDayText={dataObject.upperDayText}
                         middleTempText={dataObject.middleTempText}
                         lowerRealFeelText={dataObject.lowerRealFeelText}></InnerForecastContentComp>
@@ -38,6 +45,7 @@ const UpperTwoDayForecastComp = (props) => {
             ))}
             <div className={styles.forecastColumnDividerLast}>
                 <InnerForecastContentComp
+                        icon={moonWithCloudRightGraphic}
                         upperDayText={lastItem.upperDayText}
                         middleTempText={lastItem.middleTempText}
                         lowerRealFeelText={lastItem.lowerRealFeelText}></InnerForecastContentComp>
