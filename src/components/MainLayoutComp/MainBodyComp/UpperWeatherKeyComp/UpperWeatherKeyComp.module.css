@@ -1,7 +1,7 @@
 .upperWeatherKeyCompContainer {
     display: flex;
     min-height: 2.5rem;
-    background-color: violet;
+    /* background-color: violet; */
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -12,10 +12,16 @@
 .categoryKeyContainer {
     display: flex;
     width: 5rem;
-    background-color: grey;
+    /* background-color: grey; */
     height: 50%;
     align-items: center;
     justify-content: center;
     margin-right: 0.1rem;
 
+}
+
+.weatherLabelStyle {
+    color: white;
+    margin-right: 0.25rem;
+    font-size: 0.6rem;
 }

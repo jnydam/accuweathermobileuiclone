@@ -8,20 +8,20 @@ const UpperTwoDayForecastComp = (props) => {
     const dummyWeatherData = [
         {
             upperDayText: 'TONIGHT',
-            middleTempText: '60',
-            lowerRealFeelText: '62'
+            middleTempText: '60°',
+            lowerRealFeelText: '62°'
         },
         {
             upperDayText: 'THU',
-            middleTempText: '79',
-            lowerRealFeelText: '87'
+            middleTempText: '79°',
+            lowerRealFeelText: '87°'
         }
     ];
 
     const lastItem = {
             upperDayText: 'THU NIGHT',
-            middleTempText: '63',
-            lowerRealFeelText: '64' 
+            middleTempText: '63°',
+            lowerRealFeelText: '64°' 
     };
 
 

@@ -5,7 +5,6 @@ import TodayDetailComp from './TodayDetailComp/TodayDetailComp';
 import UpperTwoDayForecastComp from './UpperTwoDayForecastComp/UpperTwoDayForecastComp';
 import UpperWeatherKeyComp from './UpperWeatherKeyComp/UpperWeatherKeyComp';
 import CurrentConditionsComp from './CurrentConditionsComp/CurrentConditionsComp';
-
 const MainBodyComp = (props) => {
 
     return (<div className={styles.mainBodyCompContainer}>

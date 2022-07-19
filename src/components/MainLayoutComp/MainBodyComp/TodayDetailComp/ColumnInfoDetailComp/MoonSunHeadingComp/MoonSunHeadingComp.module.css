@@ -1,21 +1,29 @@
 .moonSunHeadingCompContainer {
     display: flex;
-    background-color: bisque;
-    height: 3.5rem;
-    width: 100%;
+    /* background-color: bisque; */
+    height: 3.7rem;
+    width: 85%;
     justify-content: space-between;
+    border-bottom: 1px solid #2794f3;
 }
 
 .iconImageContainer {
     display: flex;
     height: 100%;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     width: 4rem;
+    transform: translate(-0.3rem, 0);
+    align-items: center;
+
 }
 
 .hourMinuteTextLabelContainer {
     display: flex;
     height: 100%;
-    background-color: red;
+    /* background-color: red; */
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
     width: 4rem;
+    font-size: 0.9rem;
 }

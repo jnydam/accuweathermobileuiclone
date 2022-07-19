@@ -1,16 +1,17 @@
 .upperNavBarContainer {
     display: flex;
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
     flex: 2;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #5ca5f3;
 }
 
 .locationHeaderContainer {
     display: flex;
     align-items: center;
-    background-color: grey;
+    /* background-color: grey; */
     width: 100%;
     justify-content: center;
 }
@@ -19,7 +20,7 @@
     display: flex;
     outline-style: none;
     border-style: none;
-    height: 50%;
+    height: 40%;
     color: red;
     font-weight: bold;
     border-radius: 0.7rem;
@@ -32,7 +33,7 @@
 
 .tripleElementContainer {
     display: flex;
-    background-color: green;
+    /* background-color: green; */
     width: 10rem;
     height: 100%;
     align-items: center;

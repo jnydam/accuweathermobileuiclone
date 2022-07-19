@@ -2,16 +2,17 @@
     display: flex;
     width: 100%;
     min-height: 7.4rem;
-    background-color: pink;
+    /* background-color: pink; */
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 .innerForecastRowContainer {
     display: flex;
     height: 80%;
     width: 95%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .forecastColumnDivider {
@@ -20,7 +21,7 @@
     flex-direction: column;
     flex: 2;
     justify-content: center;
-    border-right: 1px solid black;
+    border-right: 1px solid #2995f3;
 
 }
 

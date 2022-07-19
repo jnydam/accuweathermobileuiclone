@@ -2,7 +2,7 @@
 
 .currentConditionsCompContainer {
     display: flex;
-    min-height: 29rem;
+    min-height: 21rem;
     flex-direction: column;
     width: 100%;
     background-color: brown;

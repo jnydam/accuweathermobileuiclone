@@ -14,6 +14,7 @@ const ColumnInfoDetailComp = (props) => {
         <RiseSetHorizRowComp
             riseTime={props.riseTime}></RiseSetHorizRowComp>
         <RiseSetHorizRowComp
+            noBorder
             setTime={props.setTime}></RiseSetHorizRowComp>
     </div>)
 }

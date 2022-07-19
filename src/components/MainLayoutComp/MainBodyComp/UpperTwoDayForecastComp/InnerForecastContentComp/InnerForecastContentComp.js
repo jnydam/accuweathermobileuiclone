@@ -9,6 +9,7 @@ const InnerForecastContentComp = (props) => {
     return (<React.Fragment>
         <span style={{
             fontSize: '0.7rem',
+            color: '#81c1f8',
             marginLeft: '1rem',
             marginBottom: '0.3rem'}}>{props.upperDayText}</span>
         <div style={{marginLeft: '1rem', marginBottom: '0.3rem'}} className={styles.iconDegreeContainer}>

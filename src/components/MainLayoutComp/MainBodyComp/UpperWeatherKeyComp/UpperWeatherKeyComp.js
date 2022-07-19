@@ -4,89 +4,56 @@ import CircleKeyComp from './CircleKeyComp/CircleKeyComp';
 import styles from './UpperWeatherKeyComp.module.css';
 
 
-// list of colors used for the highlighted things
-/*
-green
-yellow
-orange
-red
-
-lightblue
-mediumblue
-darkblue
-black
-
-lightchocolate
-mediumchocolate
-heavychocolate
-darkchocolate
-
-lightpurple
-mediumpurple
-heavypurple
-darkpurple
-
-*/
 const UpperWeatherKeyComp = (props) => {
 
     return (<div className={styles.upperWeatherKeyCompContainer}>
         <div className={styles.categoryKeyContainer}>
-            <span style={{marginRight: '0.25rem'}}>Rain</span>
+            <span className={styles.weatherLabelStyle}>Rain</span>
             <CircleKeyComp
-                color="green"></CircleKeyComp>
+                color="#9dc43c"></CircleKeyComp>
             <CircleKeyComp
-                color="yellow"></CircleKeyComp>
+                color="#f7d648"></CircleKeyComp>
             <CircleKeyComp
-                color="orange"></CircleKeyComp>
+                color="#de5e2d"></CircleKeyComp>
             <CircleKeyComp
-                color="red"></CircleKeyComp>
+                color="#cb3823"></CircleKeyComp>
         </div>
         <div className={styles.categoryKeyContainer}>
-            <span style={{marginRight: '0.25rem'}}>Snow</span>
+            <span className={styles.weatherLabelStyle}>Snow</span>
             <CircleKeyComp
-                color="lightblue"></CircleKeyComp>
+                color="#a6c7ed"></CircleKeyComp>
             <CircleKeyComp
-                color="mediumblue"></CircleKeyComp>
+                color="#2a8eda"></CircleKeyComp>
             <CircleKeyComp
-                color="darkblue"></CircleKeyComp>
+                color="#154aec"></CircleKeyComp>
             <CircleKeyComp
-                color="black"></CircleKeyComp>
+                color="#154aec"></CircleKeyComp>
         </div>
         <div className={styles.categoryKeyContainer}>
-            <span style={{marginRight: '0.25rem'}}>Ice</span>
+            <span className={styles.weatherLabelStyle}>Ice</span>
             <CircleKeyComp
-                color="lightchocolate"></CircleKeyComp>
+                color="#dba8c5"></CircleKeyComp>
             <CircleKeyComp
-                color="mediumpurple"></CircleKeyComp>
+                color="#c35a9d"></CircleKeyComp>
             <CircleKeyComp
-                color="heavychocolate"></CircleKeyComp>
+                color="#a72e8c"></CircleKeyComp>
             <CircleKeyComp
-                color="darkchocolate"></CircleKeyComp>
+                color="#6f226b"></CircleKeyComp>
         </div>
         <div className={styles.categoryKeyContainer}>
-            <span style={{marginRight: '0.25rem'}}>Mix</span>
+            <span className={styles.weatherLabelStyle}>Mix</span>
             <CircleKeyComp
-                color="lightpurple"></CircleKeyComp>
+                color="#b999e0"></CircleKeyComp>
             <CircleKeyComp
-                color="mediumpurple"></CircleKeyComp>
+                color="#a375de"></CircleKeyComp>
             <CircleKeyComp
-                color="heavypurple"></CircleKeyComp>
+                color="#8a31d6"></CircleKeyComp>
             <CircleKeyComp
-                color="darkpurple"></CircleKeyComp>
+                color="#6400b9"></CircleKeyComp>
         </div>
     </div>
     )
 };
-
-// lightchocolate
-// mediumchocolate
-// heavychocolate
-// darkchocolate
-
-// lightpurple
-// mediumpurple
-// heavypurple
-// darkpurple
 
 
 export default UpperWeatherKeyComp;

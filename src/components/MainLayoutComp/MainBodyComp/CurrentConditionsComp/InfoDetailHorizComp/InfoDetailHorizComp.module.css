@@ -4,12 +4,14 @@
     width: 100%;
     background-color: violet;
     justify-content: space-between;
+    border-bottom: 1px solid black;
 }
 
 .labelValueContainer {
     display: flex;
     width: 7rem;
     background-color: grey;
+    align-items: center;
 }
 
 
@@ -17,4 +19,5 @@
     display: flex;
     width: 7rem;
     background-color: bisque;
+    align-items: center;
 }

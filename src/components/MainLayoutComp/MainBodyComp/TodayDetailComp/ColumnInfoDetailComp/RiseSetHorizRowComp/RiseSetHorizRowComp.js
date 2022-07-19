@@ -4,9 +4,9 @@ import styles from './RiseSetHorizRowComp.module.css';
 
 const RiseSetHorizRowComp = (props) => {
 
-    return (<div className={styles.riseSetHorizRowCompContainer}>
+    return (<div className={props.noBorder ? styles.riseSetHorizNoBorder : styles.riseSetHorizRowCompContainer}>
         <div className={styles.riseLabelTextStyle}>
-            <span>Rise</span>
+            <span>{props.riseTime ? "Rise" : "Set"}</span>
         </div>
         <div className={styles.timeValueContainerStyle}>
             <span>{props.riseTime ? props.riseTime : props.setTime}</span>
