@@ -1,4 +1,25 @@
 .lowerTabCompContainer {
     display: flex;
     flex: 2;
+    background-color: #0162b6;
+    color: white;
+}
+
+.tabDivider {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tabIconStyle {
+    display: flex;
+    height: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.tabTextStyle {
+    font-size: 0.7rem;
 }
