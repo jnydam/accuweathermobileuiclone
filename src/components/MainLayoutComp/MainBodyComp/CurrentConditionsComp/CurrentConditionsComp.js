@@ -8,11 +8,15 @@ const CurrentConditionsComp = (props) => {
     const currentConditionsData = [
         {
             label: 'Temperature',
-            value: '79'
+            value: '79°'
         },
         {
-            label: 'RealFeel',
-            value: '77 (Pleasant)'
+            label: 'RealFeel®',
+            value: '77° (Pleasant)'
+        },
+        {
+            label: 'RealFeel Shade™ ',
+            value: '76°'
         },
         {
             label: 'Wind',
@@ -35,7 +39,10 @@ const CurrentConditionsComp = (props) => {
 
     return (<div className={styles.currentConditionsCompContainer}>
         <div className={styles.currentConditionsHeaderContainer}>
-            <span>Current Conditions</span>
+            <span style={{
+                fontSize: '0.75rem',
+                fontWeight: 'bold'
+            }}>CURRENT CONDITIONS</span>
         </div>
         {currentConditionsData.map((conditionData, index) => (
             <InfoDetailHorizComp

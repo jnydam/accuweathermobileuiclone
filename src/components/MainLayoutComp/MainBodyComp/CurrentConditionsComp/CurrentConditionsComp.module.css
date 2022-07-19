@@ -4,13 +4,16 @@
     display: flex;
     min-height: 21rem;
     flex-direction: column;
-    width: 100%;
-    background-color: brown;
+    width: 94%;
+    margin-top: 1rem;
+    /* background-color: brown; */
 }
 
 .currentConditionsHeaderContainer {
     display: flex;
     height: 2rem;
     width: 100%;
-    background-color: blueviolet;
+    color: white;
+    align-items: center;
+    /* background-color: blueviolet; */
 }

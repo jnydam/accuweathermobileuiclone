@@ -1,23 +1,27 @@
 .infoDetailHorizCompContainer {
     display: flex;
-    height: 2.5rem;
+    height: 2.8rem;
     width: 100%;
-    background-color: violet;
+    color: white;
+    /* background-color: violet; */
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #2794f3;
 }
 
 .labelValueContainer {
     display: flex;
-    width: 7rem;
-    background-color: grey;
+    width: 9rem;
+    /* background-color: grey; */
     align-items: center;
 }
 
 
 .infoValueContainer {
     display: flex;
-    width: 7rem;
-    background-color: bisque;
+    width: 10rem;
+    font-weight: bold;
+    font-size: 1.05rem;
+    /* background-color: bisque; */
+    justify-content: flex-end;
     align-items: center;
 }
